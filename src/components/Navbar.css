@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffe4b1;
+    color: black;
+    padding: 1em;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: #ffe4b1;
+    border-radius: 20px;
+    border-width: 0px;
+
+}
+
+.button:hover {
+    background-color: #ffdc9a;
+}
+
+.about {
+    font-size: 20px;
+}

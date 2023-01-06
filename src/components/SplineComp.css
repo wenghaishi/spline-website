@@ -1,5 +1,70 @@
 .main {
-    position: absolute;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+}
+
+.spline {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top:0;
+    height: 50%;
+}
+
+.button1 {
+    position: absolute;
+    right:0;
+    margin-top: 200px;
+    margin-right: -3px;
+    width: 220px;
+    height: 100px;
+    top:0;
+    background-color: #ffe4b1;
+    font-size: 34px;
+}
+
+.button2 {
+    position: absolute;
+    margin-right: -3px;
+    margin-top: 420px;
+    width: 220px;
+    height: 100px;
+    top:0;
+    right:0;
+    background-color: #ffe4b1;
+    font-size: 34px;
+}
+
+.button3 {
+    position: absolute;
+    margin-right: -3px;
+    margin-top: 640px;
+    width: 220px;
+    height: 100px;
+    top:0;
+    right:0;
+    background-color: #ffe4b1;
+    font-size: 34px;
+}
+
+.text {
+    position: absolute;
+    width: 400px;
+    margin-top: 50px;
+    height: 200px;
+    top:0;
+    margin-left: 40px;
+    background-color: #ffe4b1;
+    border-color: black;
+    border:2px;
+    font-size: 26px;
+    text-align: center;
 }
